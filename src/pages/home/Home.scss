@@ -1,0 +1,96 @@
+
+ .fetures{
+    margin-top: 60px;
+    background-color: #cdecde;
+   display: flex;
+   justify-content: center;
+   &.busness{
+     background-color: #171942;
+     color: white;
+     .left{
+       h1{
+         padding: 0;
+         margin-top: 10px;
+         color: #ffffff !important;
+         i{
+           font-weight: 400;
+         }
+       }
+
+       .bags{
+         margin-bottom: 40px;
+         p{
+           margin:0 0 0 40px;
+         }
+         span{
+           font-weight: 500;
+           font-size: 24px;
+           .cercel{
+             margin: 0 10px;
+             color: white;
+           }
+         }
+         button{
+           width: 300px;
+           background-color: #1dbf73;
+           font-weight: 500;
+           color: #ffffff;
+           font-size: 24px;
+           border: none;
+           border-radius: 10px;
+           padding: 10px 20px;
+           cursor: pointer;
+         }
+
+       }
+
+     }
+
+   }
+    .container{
+      width:1400px;
+      height: 550px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .left{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        h1{
+          color: #0e0a0a;
+          font-weight: 800;
+        }
+        .bags{
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          span{
+            font-weight: 500;
+            font-size: 24px;
+            .cercel{
+              margin: 0 10px;
+              color: white;
+            }
+          }
+        }
+      }
+
+      .right{
+        width: 40%;
+        video{
+          width: 500px;
+          height: 450px;
+          border: 1px solid #02700d;
+        }
+
+      }
+    }
+
+
+  }
+
+
+
+
+

@@ -1,0 +1,52 @@
+.myGigs{
+  display: flex;
+  justify-content: center;
+  .container{
+    width: 1400px;
+
+    .list-gigs{
+      width: 100%;
+      table{
+        width: 100%;
+        th{
+          width: 160px;
+        }
+        tr:first-of-type{
+          background-color: #1dbf73;
+          padding: 10px;
+          margin-top: 50px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+        }
+        tr{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 60px;
+          &:nth-child(even){
+            background-color: #bef4db;
+          }
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+          td{
+            //background-color: #e10b0b;
+            width: 160px;
+            height: 50px;
+            text-align: center;
+            .icon{
+              color: #4589f3;
+              cursor: pointer;
+
+            }
+
+          }
+        }
+      }
+
+    }
+  }
+}

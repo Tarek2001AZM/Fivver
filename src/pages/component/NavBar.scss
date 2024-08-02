@@ -1,0 +1,128 @@
+.NavBar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #013914;
+  transition: 0.9s all ease; Link{
+    text-decoration: none;
+    color: white;
+  }
+  &.active{
+    background-color: white;
+    .container{
+      .logo{
+        .text{
+          color: black;
+        }
+      }
+      .links{
+        color: black;
+        button{
+          color: black;
+          border: 2px solid black;
+
+
+        }
+
+      }
+    }
+
+  }
+  .container{
+      width: 1400px;
+    padding: 10px 20px ;
+    display: flex;
+    justify-content: space-between;
+    .logo{
+      color: #fff;
+      font-size: 34px;
+      font-weight: 500;
+      .text{
+
+      }
+      .dot{
+        color: #1dbf73;
+
+
+      }
+
+    }
+    .links{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+      font-weight: 500;
+      color: #fff;
+      .user{
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        img{
+          width: 32px;
+          height:32px;
+          border-radius: 50%;
+          object-fit: cover;
+          margin-right: 16px;
+        }
+        .options{
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          position: absolute;
+          top: 50px;
+          right: 0;
+          padding: 20px;
+          border: 1px solid gray;
+          background-color: #fff;
+          color: gray;
+          border-radius: 8px;
+          width: 200px;
+
+        }
+        .userName{
+          cursor: pointer;
+          &:hover{
+
+          }
+        }
+
+      }
+
+      button{
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 2px solid white;
+        font-weight: 400;
+        font-size: 24px;
+        background-color: transparent;
+
+        &:hover{
+          background-color: #1dbf73;
+        }
+      }
+    }
+  }
+  hr{
+    width: 100%;
+    color: gray;
+    height: 0;
+    border: 0.5px solid gray;
+
+  }
+  .menu{
+      width: 1400px;
+      display: flex;
+      justify-content: space-around;
+      font-weight: 400;
+      color: gray;
+      font-size: 24px;
+  }
+
+
+}
+

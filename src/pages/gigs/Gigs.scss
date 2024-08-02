@@ -1,0 +1,88 @@
+.Gigs{
+  display: flex;
+  justify-content: center;
+
+  .container{
+    width: 1400px;
+    padding: 20px;
+
+
+    .head-top{
+      display: flex;
+      flex-direction: column;
+
+      span{
+        color: #b5b3b3;
+      }
+      p{
+        color: #b5b3b3;
+        font-weight: 500;
+        font-size: 24px;
+      }
+      .Filters{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+
+        .left-filter{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 50%;
+          height: 40px;
+          span{
+            padding-left: 20px;
+            padding-right: 20px;
+            font-weight: 600;
+            font-size: 24px;
+            color: black;
+
+          }
+          input{
+            border: none;
+            height: 90%;
+            border-radius: 8px;
+            outline: 2px solid #cccaca;
+
+          }
+          button{
+            border: none;
+            width: 100px;
+            height: 40px;
+            background-color: #1dbf73;
+            padding: 0 20px;
+            margin: 0 20px;
+            font-weight: 600;
+            color: white;
+            border-radius: 4px;
+          }
+
+        }
+
+        .right-filter{
+          width: 200px;
+          display: flex;
+          align-items: center;
+          p{
+            color: #b5b3b3;
+            font-weight: 400;
+          }
+          span{
+            color: #0e0a0a;
+            margin-left: 20px;
+            font-weight: bold;
+          }
+
+        }
+      }
+    }
+    .gig-list{
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+
+    }
+  }
+}
